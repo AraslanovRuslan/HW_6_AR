@@ -57,9 +57,11 @@ public class RegistrationPage {
     public void setAddress(String value){
         $("#currentAddress").setValue(value);
     }
-    public void setStateCity(){
+    public void setState() {
         $("#state").click();
         $("#stateCity-wrapper").$(byText("NCR")).click();
+    }
+        public void setCity(){
         $("#city").click();
         $("#stateCity-wrapper").$(byText("Delhi")).click();
     }
